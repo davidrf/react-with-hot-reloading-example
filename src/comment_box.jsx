@@ -50,7 +50,7 @@ module.exports = React.createClass({
   render: function() {
     return (
       <div className='commentBox'>
-        <h1>Comments fuck yea</h1>
+        <h1>Comments for day</h1>
         <CommentList data={this.state.data} />
         <CommentForm onCommentSubmit={this.handleCommentSubmit} />
       </div>
